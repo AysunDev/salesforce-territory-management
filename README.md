@@ -1,18 +1,70 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Territory Assignment
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Overview
 
-## How Do You Plan to Deploy Your Changes?
+This project demonstrates an automated territory assignment solution built on Salesforce.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+The system automatically assigns records to the appropriate territory based on postal code rules, eliminating manual assignment and improving data consistency.
 
-## Configure Your Salesforce DX Project
+---
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Business Problem
 
-## Read All About It
+Organizations often assign territories manually, which can lead to:
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- Incorrect ownership
+- Slow processing
+- Inconsistent assignments
+- Increased administrative effort
+
+This solution automates the assignment process based on configurable business rules.
+
+---
+
+## Solution
+
+The solution automatically:
+
+- Evaluates postal code information
+- Determines the correct territory
+- Assigns the appropriate owner
+- Supports future business rule changes
+
+---
+
+## Technical Highlights
+
+- Apex
+- Record-Triggered Flow
+- Custom Objects
+- Bulk-safe logic
+- Error handling
+- Reusable architecture
+
+---
+
+## Business Impact
+
+- Reduced manual work
+- Improved assignment accuracy
+- Faster processing
+- Easier maintenance
+- Better user experience
+
+---
+
+## Technologies
+
+- Apex
+- Salesforce Flow
+- SOQL
+- Custom Objects
+
+---
+
+## Future Improvements
+
+- Custom Metadata for territory rules
+- Interactive assignment dashboard
+- Assignment history tracking
+- Scheduled reassignment process
