@@ -1,5 +1,5 @@
-## Design Documentation
+## 📄 Technical Documentation
 
-This project also includes a complete technical specification describing the architecture, design decisions, testing strategy, and implementation details.
+This repository includes a complete technical specification describing the architecture, design decisions, testing strategy, and implementation details.
 
-[Technical Specification]TerritoryManagement_Specification_Aug2025 (2).docx.pdf
+📄 **View Technical Specification:** [Territory Management Technical Specification](Territory_Management_Technical_Specification.pdf)
